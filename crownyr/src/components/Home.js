@@ -7,11 +7,6 @@ const Home = () => {
         <div className="logo">
             <h1>BeNice</h1>
         </div>
-        <nav className='app-nav'>
-            <a href="https://www.crownyourrights.com/">Home</a>
-            <Link to='/about'>About</Link>
-            <a href="#">Contact</a>
-        </nav>
         </header>
         <section>
             <p>Coming Soon...</p>
@@ -21,3 +16,5 @@ const Home = () => {
     </div>
     )
 }
+
+export default Home;
