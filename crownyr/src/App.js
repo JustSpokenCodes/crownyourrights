@@ -1,5 +1,12 @@
 import React from 'react';
 import './App.css';
+import { Link, Route } from "react-router-dom";
+
+//components
+//import Home from "./components/Home";
+import About from "./components/About";
+//import Contact from "./components/Contact"
+
 
 function App() {
   return (
@@ -8,9 +15,9 @@ function App() {
         <div className="logo">
           <h1>BeNice</h1>
         </div>
-        <nav>
+        <nav className='app-nav'>
           <a href="https://www.crownyourrights.com/">Home</a>
-          <a href="#"> About</a>
+          <Link to='/about'>About</Link>
           <a href="#">Contact</a>
         </nav>
       </header>
