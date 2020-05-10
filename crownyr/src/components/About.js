@@ -6,7 +6,7 @@ const About = () => {
         {
             name: 'Briana E.L.H. Stevens',
             profile: '#',
-            img: './img/maleficentStitch.jpg',
+            img: './img/briaCoverphoto.jpg',
             role: 'President/ CEO',
         }
     ];
