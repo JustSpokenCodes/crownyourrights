@@ -1,7 +1,22 @@
+* {
+  box-sizing: border-box;
+}
 .App{
   text-align: center;
-  color: silver;;
+  color: silver;
+  font: 1.6rem lucia;
 }
 html{
   background-color: #4169e1;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  font: 1.3rem lucia;
+  margin: 0 10px;
+}
+
+.footer {
+  
 }

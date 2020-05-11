@@ -23,6 +23,11 @@ function App() {
         <Route path='/about' component={About} />
         <Route path='/contact' component={Contact} />
       </Switch>
+      <footer>
+        <div className="footer">
+          <h3><b>C</b><i>rown</i> <b>Y</b><i>our</i> <b>R</b><i>ights</i> goal is to give support and guidance to youth adults on being independent through mentorship.</h3>
+        </div>
+      </footer>
     </div>
   );
 }
