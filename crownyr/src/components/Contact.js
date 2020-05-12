@@ -31,7 +31,7 @@ class Contact extends React.Component {
     }
 
     resetForm(){
-        this.setState({name: '', email: '', message: })
+        this.setState({name: '', email: '', message: ''})
     }
 
 render() {
