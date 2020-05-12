@@ -18,7 +18,6 @@ function App() {
           <Link to='/contact'>Contact</Link>
         </nav>
       </header>
-      <hr />
       <Switch>
         <Route exact path='/' component={Home} />
         <Route path='/about' component={About} />
