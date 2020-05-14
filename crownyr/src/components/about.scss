@@ -1,5 +1,5 @@
 .card {
-    background: rgb(153, 53, 215);
+    background: rgb(160, 212, 252);
     padding: 3rem 12rem;
     line-height: 1.5;
     border-radius: 1.5%;
@@ -8,8 +8,9 @@
     p {
     color: #555f77;
     text-align: justify;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1rem;
+    line-height: 1.4;
     }
 }
 
@@ -39,7 +40,7 @@
     }
     }
 }
-img {
+.profile-avi {
     width: 40%;
     height: auto;
     padding-top: 20px;

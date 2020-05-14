@@ -25,7 +25,10 @@ function App() {
       </Switch>
       <footer>
         <div className="footer">
-          <h3><b>C</b><i>rown</i> <b>Y</b><i>our</i> <b>R</b><i>ights</i> goal is to give support and guidance to youth adults on being independent through mentorship.</h3>
+          <p>
+            <b>C</b><i>rown</i> <b>Y</b><i>our</i> <b>R</b><i>ights</i> goal is to give support and guidance to youth on being independent through mentorship.
+          </p>
+          <p className="copyright">&copy; Crown Your Rights 2020</p>
         </div>
       </footer>
     </div>

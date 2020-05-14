@@ -12,6 +12,5 @@ html{
 header nav {
   display: flex;
   justify-content: space-around;
-  font: 1.3rem lucia;
   margin: 0 10px;
 }
