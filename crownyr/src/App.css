@@ -3,14 +3,35 @@
 }
 .App{
   text-align: center;
-  color: silver;
 }
 html{
   background-color: #4169e1;
 }
 
-header nav {
+header {
   display: flex;
-  justify-content: space-around;
-  margin: 0 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.logo-container {
+  display: flex;
+}
+
+header nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration: none;
+  color:black
+
+}
+
+header img {
+  width: 5rem;
+  margin: auto
+}
+
+header h1 {
+  maegin: 10px 0 30px;
 }

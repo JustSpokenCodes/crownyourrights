@@ -4,11 +4,9 @@ import './home.scss';
 const Home = () => {
     return (
         <div className="container">
-            <h1>BeNice</h1>
+            <h1>About Crown Your Rights</h1>
             <header>
-                <img src='./img/crown.jpg' alt="logo for cyr" />
                 <section className="about">
-                    <h2>About Crown Your Rights</h2>
                     <p> Crown Your Rights is about being accountable for the "crown" you wear and making sure it Never falls
                     </p>
                 </section>
