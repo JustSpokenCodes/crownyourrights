@@ -7,7 +7,7 @@ const Home = () => {
             <h1>About Crown Your Rights</h1>
             <header>
                 <section className="about">
-                    <p> Crown Your Rights is about being accountable for the "crown" you wear and making sure it Never falls
+                    <p> Crown Your Rights is about being accountable for the <i>Crown</i> you wear and making sure it Never falls.
                     </p>
                 </section>
             </header>
@@ -16,10 +16,10 @@ const Home = () => {
                     <img src="./img/laugh.jpg" alt="laughter" />
                 </div>
                 <div>
-                    <h2>Laughter</h2>
-                    <p> Being able to look at ourselves and understand that not Everything is serious is a trait that has to be taught early. Briana understands that you're never fully dressed without a smile and she holds that close to her heart.
+                    <h2>LAUGHTER</h2>
+                    <p> Being able to look at ourselves and understand that not everything is serious is a trait that has to be taught early. Briana understands that you're never fully dressed without a smile and she holds that close to her heart.
                     </p>
-                    <p> Through Laughter, you can always find your <i>Crown</i>.
+                    <p> Through laughter, you can always find your <i>Crown</i>.
                     </p>
                 </div>
             </section>
@@ -28,8 +28,10 @@ const Home = () => {
                     <img src="./img/confidence.jpg" alt="confidence" />
                 </div>
                 <div>
-                    <h2>Confidence</h2>
-                    <p> To be confident, it takes 2 simple elements: (1) Being able to stay on course even when others feel its incorrect. (2) Knowing in your Heart and Mind you're doing the right thing.
+                    <h2>CONFIDENCE</h2>
+                    <p> To be confident, it takes 3 simple elements: 
+                        (1) Being able to stay on course even when others feel it's incorrect. 
+                        (2) Knowing in your heart and mind you're doing the right thing. (3) Knowing greatness is within you.
                     </p>
                     <p> "Never G-I-V-E-U-P and keep your H-E-A-D-U-P" - <i>Fabulous</i> Jaheim
                     </p>
@@ -40,10 +42,10 @@ const Home = () => {
                     <img src="./img/freedom.jpg" alt="freedom" />
                 </div>
                 <div>
-                    <h2>Freedom</h2>
-                    <p> To truly be Free means that youve successfully beat Worry in every aspect. Although life can be rough and never show you a route to Freedom, Crown Your Rights will make it a proirity to make sure you feel Free.
+                    <h2>FREEDOM</h2>
+                    <p> To truly be free means that you've successfully beat worry in every aspect. Although life can be rough and your route to freedom can be difficult to find. Crown Your Rights will make it a proirity to make sure you are free.
                     </p>
-                    <p> In feeling Free, one is better prepared to face the world "on a full stomach"
+                    <p> In feeling free, one is better prepared to face the world "on a full heart and stomach".
                     </p>
                 </div>
             </section>
@@ -52,10 +54,10 @@ const Home = () => {
                     <img src="./img/belonging.jpg" alt="belonging" />
                 </div>
                 <div>
-                    <h2>Belonging</h2>
-                    <p> In this crazy world, there are many people with a plethora of different attidudes and approaches to life. In all the madness, it feel like weights released from you when you have a place of Belonging no matter how you are.
+                    <h2>BELONGING</h2>
+                    <p> In this crazy world, there are many people with a plethora of different attidudes and approaches to life. In all the madness, it feel like weights released from you when you have a place of belonging no matter who you are.
                     </p>
-                    <p> When you have a place that you feel the most yourself is when you know </p>
+                    <p> When you have a place that you feel the most yourself is when you know. </p>
                 </div>
             </section>
                     <h1><b>C</b><i>rown</i> <b>Y</b><i>our</i> <b>R</b><i>ights</i></h1>

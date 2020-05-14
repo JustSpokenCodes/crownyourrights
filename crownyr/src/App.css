@@ -10,28 +10,41 @@ html{
 
 header {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.logo-container {
+header .logo-container {
   display: flex;
+  align-items: center;
+}
+
+header .logo-container img {
+  width: 50px;
+  height: 50px;
+  display: block;
 }
 
 header nav {
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   text-decoration: none;
-  color:black
-
 }
 
-header img {
-  width: 5rem;
-  margin: auto
+header nav a {
+  color: plum;
 }
 
 header h1 {
   maegin: 10px 0 30px;
+}
+
+@media (max-width:400px) {
+  header nav a {
+    padding: 10px 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+  }
 }
