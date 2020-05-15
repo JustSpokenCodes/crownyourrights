@@ -14,7 +14,7 @@ const About = () => {
     return (
         <div className="page-wrap">
             <section className='card'>
-                <h1 className='card-title'> So You Want To Know Who I Am</h1>
+                <h1 className='card-title'>Who I Am</h1>
                 <hr />
                 <p>
                     Briana Stevens, a West Coast native with Southern hospitality. Born and raised in California attended the prestigious Howard University in Washington, D.C. for undergraduate obtaining a Bachelors of Arts in Radio-Television-Film (RTVF) with a focus in Film and minor in African American Studies. Continuing her love of learning and attending National University in La Jolla, California achieving a Master of Arts in Education with a focus on e-teaching & learning. To compliment her Master of Arts, she obtianed a Teaching English as a Foreign Language (TEFL) certificate.
