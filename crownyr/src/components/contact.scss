@@ -17,3 +17,9 @@
     font-size: 16px;
     cursor: pointer;
 }
+
+@media (max-width: 375px) {
+    .Contact {
+        width: 100%;
+    }
+}
