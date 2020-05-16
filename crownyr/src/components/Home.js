@@ -4,7 +4,7 @@ import './home.scss';
 const Home = () => {
     return (
         <div className="container">
-            <h1>About Crown Your Rights</h1>
+            <h1>Crown Your Rights</h1>
             <header>
                 <section className="about">
                     <p> Crown Your Rights is about being accountable for the <i>Crown</i> you wear and making sure it Never falls.

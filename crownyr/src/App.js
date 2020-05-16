@@ -12,10 +12,6 @@ function App() {
   return (
     <div className="App">
       <header>
-        <div className="logo-container">
-          <img src='./img/crown.jpg' alt="logo for cyr" />
-          <h1>BeNice</h1>
-        </div>
         <nav className='app-nav'>
           <Link to='/'>Home</Link>
           <Link to='/about'>About</Link>
