@@ -22,10 +22,10 @@ class Contact extends React.Component {
             data: this.state
         }).then((response)=>{
             if (response.data.status === 'success'){
-                alert("Message Sent.");
+                alert("Crown Royal on Ice!");
                 this.resetForm()
             }else if(response.data.status === 'fail'){
-                alert("Message failed to send.")
+                alert("Pick up your crown and try again")
             }
         })
     }

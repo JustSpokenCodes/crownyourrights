@@ -39,7 +39,7 @@ header h1 {
   margin: 10px 0 30px;
 }
 
-@media only screen and (max-width: 375px) {
+@media (max-width: 375px) {
   .App {
     width: 100%;
     }

@@ -28,7 +28,7 @@ function App() {
           <p>
             <b>C</b><i>rown</i> <b>Y</b><i>our</i> <b>R</b><i>ights</i> goal is to give support and guidance to youth on being independent through mentorship.
           </p>
-          <p className="copyright">&copy; Crown Your Rights 2020</p>
+          <p className="copyright">&copy; BeNice 2020</p>
         </div>
       </footer>
     </div>
