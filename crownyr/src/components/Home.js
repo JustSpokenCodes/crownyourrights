@@ -6,6 +6,7 @@ const Home = () => {
         <div className="container">
             <h1>Crown Your Rights</h1>
             <header>
+                <img src="./img/cyr.jpg" alt="crown your rights" />
                 <section className="about">
                     <p> Crown Your Rights is about being accountable for the <i>Crown</i> you wear and making sure it Never falls.
                     </p>
@@ -25,7 +26,7 @@ const Home = () => {
             </section>
             <section className="content-row">
                 <div>
-                    <img src="./img/confidence.jpg" alt="confidence" />
+                    <img src="./img/confidence2.jpg" alt="confidence" />
                 </div>
                 <div>
                     <h2>CONFIDENCE</h2>
@@ -39,7 +40,7 @@ const Home = () => {
             </section>
             <section className="content-row">
                 <div>
-                    <img src="./img/freedom.jpg" alt="freedom" />
+                    <img src="./img/freedom2.jpg" alt="freedom" />
                 </div>
                 <div>
                     <h2>FREEDOM</h2>
@@ -51,7 +52,7 @@ const Home = () => {
             </section>
             <section className="content-row">
                 <div>
-                    <img src="./img/belonging.jpg" alt="belonging" />
+                    <img src="./img/belonging2.jpg" alt="belonging" />
                 </div>
                 <div>
                     <h2>BELONGING</h2>
