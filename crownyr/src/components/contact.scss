@@ -2,9 +2,12 @@
     font-family: cursive;
     display: flex;
     justify-content: space-evenly;
-    padding: 10px;
+    padding: 23px;
 }
 
+label {
+    font-size: 23px;
+}
 .btn {
     border-radius: 20px;
     background-color: purple;
