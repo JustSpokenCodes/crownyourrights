@@ -23,7 +23,7 @@ const About = () => {
                     Briana lives her life through the Zulu proverb, "I am a person through other people. My humanity is tied to yours." She also lives by the ideal of diversity of thought, the more opinions included make the idea even more magical than the original idea. Her passion is to assist in giving a voice to those who feel they lack a voice in their community. Through a multitude of projects, Briana tends to support the youth in showing them they are the future and they control anything and everything they choose to put their minds to.
                 </p>
                 <p>
-                    Briana Supports and Welcomes anyone and everyone who would like to join in on her mission.
+                    Briana Supports and Welcomes anyone and everyone who would like to join in on her mission to teach others to be "curious".
                 </p>
             </section>
             <section className='card'>
