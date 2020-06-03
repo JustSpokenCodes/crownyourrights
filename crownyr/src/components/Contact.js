@@ -54,6 +54,7 @@ return(
     </form>
     </div>
 );
+<h1>Im going to work on the api to make this send a message so it gets send to your email</h1> 
 }
 
 onNameChange(event) {
