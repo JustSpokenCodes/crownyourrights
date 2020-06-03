@@ -43,7 +43,7 @@ return(
         <input type="text" className="form-control" value={this.state.name} onChange={this.onNameChange.bind(this)} />
     </div>
     <div className="form-group">
-        <label htmlFor="exampleInputEmail1">Email </label>
+        <label htmlFor="exampleInputEmail1">Mail </label>
         <input type="email" className="form-control" aria-describedby="emailHelp" value={this.state.email} onChange={this.onEmailChange.bind(this)} />
     </div>
     <div className="form-group">
