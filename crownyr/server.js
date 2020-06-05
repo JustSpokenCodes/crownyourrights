@@ -1,13 +1,13 @@
-const express = require('express');
+const express = require('express'); // import the express package
 
-const port = 5000;
+const server = express(); // creates the server
 
-const server = express();
-
+// handle requests to the root of the api, the / route
 server.get('/', (req, res) => {
-    res.send('Hello world from Express');
-})
-
-server.listen(port, () => {
-    console.log('server listening to port ${port}');
+  res.send('Hello from Express');
 });
+
+// watch for connections on port 5000
+server.listen(5000, () =>
+  console.log('Server running on http://localhost:5000')
+);
