@@ -1,13 +1,16 @@
-const express = require('express'); // import the express package
+const http = require('http'); // built in node.js module to handle http traffic
 
-const server = express(); // creates the server
+const hostname = '127.0.0.1'; // the local computer where the server is running
+const port = 3000; // a port we'll use to watch for traffic
 
-// handle requests to the root of the api, the / route
-server.get('/', (req, res) => {
-  res.send('Hello from Express');
+const server = http.createServer((req, res) => {
+  // creates our server
+  res.statusCode = 200; // http status code returned to the client
+  res.setHeader('Content-Type', 'text/plain'); // inform the client that we'll be returning text
+  res.end('Hello World from Node\n'); // end the request and send a response with the specified message
 });
 
-// watch for connections on port 5000
-server.listen(5000, () =>
-  console.log('Server running on http://localhost:5000')
-);
+server.listen(port, hostname, () => {
+  // start watching for connections on the port specified
+  console.log(`Server running at http://${hostname}:${port}/`);
+});
