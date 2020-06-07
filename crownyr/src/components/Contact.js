@@ -67,7 +67,6 @@ onEmailChange(event) {
 onMessageChange(event) {
 	this.setState({message: event.target.value})
 }
-
 }
 
-export default Contact;
+export default Contact; 
