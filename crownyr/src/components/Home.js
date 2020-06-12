@@ -61,6 +61,14 @@ const Home = () => {
                     <p> When you have a place that you feel the most yourself is when you know. </p>
                 </div>
             </section>
+            <a 
+                className="contact-link"
+                href="https://crownyourrights.com/contact"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Lets Link 
+            </a>
                     <h1><b>C</b><i>rown</i> <b>Y</b><i>our</i> <b>R</b><i>ights</i></h1>
         </div>
     )
