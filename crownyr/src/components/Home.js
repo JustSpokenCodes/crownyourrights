@@ -67,7 +67,7 @@ const Home = () => {
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                Lets Link 
+                Contact Me
             </a>
                     <h1><b>C</b><i>rown</i> <b>Y</b><i>our</i> <b>R</b><i>ights</i></h1>
         </div>

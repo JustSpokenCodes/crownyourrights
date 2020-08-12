@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 h1 {
     font-family: cursive;
     font-size: 50px;
@@ -22,7 +26,9 @@ p {
 .about {
     width: 100%;
 }
-
+.nav {
+    padding-top: 1.5rem;
+}
 img {
     border-radius: 10px;
     width: 20rem;
@@ -35,6 +41,8 @@ img {
 .content-row {
     display: flex;
     padding: 50px;
+    border-top: 1px solid black;
+    padding-top: 20px;
 }
 
 .content-row div {
@@ -43,6 +51,7 @@ img {
 
 .container {
     margin: 0 auto;
+    font-size: 1.6rem;
     width: 100%;
 }
 
