@@ -4,10 +4,7 @@ import './home.scss';
 const Home = () => {
     return (
         <div className="container">
-        <div className="sidebar"> 
-        <a class="active" href={Home}>Home</a>
-        </div>
-            <h1>Crown Your Rights</h1>
+            <h1>Crown Your Rights</h1> 
             <header>
                 <section className="about">
                 <img className="cyr" src="./img/cyr.jpg" alt="crown your rights" />

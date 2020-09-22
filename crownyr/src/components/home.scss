@@ -1,7 +1,7 @@
 h1 {
     font-family: cursive;
     font-size: 50px;
-    color: silver
+    color: rgb(112, 52, 209)
 }
 
 h2, h3, h4 {
@@ -9,22 +9,59 @@ h2, h3, h4 {
     margin-bottom: 0;
     padding: 0 10px;
     font-size: 25px;
-    color: plum;
+    color: rgb(133, 52, 153);
 }
 
 p {
     font-size: 16px;
     padding:10px;
     line-height: 1.2;
-    color: rgb(190, 112, 216);
+    color: rgb(55, 22, 67);
 }
 .about {
     width: 100%;
 }
-.app-nav {
-    padding-top: 1.5rem;
-    margin-top: 40px;
+.sidebar {
+    width:200px;
+    background-color:blanchedalmond;
+    position: fixed;
+    height:100%;
+    overflow: auto;
 }
+
+.sidebar a {
+    display: block;
+    color:plum;
+    padding: 16px;
+    text-decoration:none;
+}
+
+.sidebar a.active {
+    background-color: blanchedalmond;
+    color: plum;
+}
+
+.sidebar a:hover:not(.active) {
+    background-color:rgb(86, 27, 121);
+    color:plum;
+}
+
+@media screen and (max-width:1500px) {
+    .sidebar {
+        width:100%;
+        height: auto;
+        position: relative;
+    }
+    .sidebar a {float:left;}
+    div.content {margin-left:0;}
+}
+@media screen and (max-width:800px) {
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
+}
+
 img {
     border-radius: 10px;
     width: 20rem;
@@ -49,11 +86,4 @@ img {
     margin: 0 auto;
     font-size: 1.6rem;
     width: 80%;
-}
-
-@media (max-width: 375px) {
-    .container {
-        width: 100%;
-        
-    }
 }

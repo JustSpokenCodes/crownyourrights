@@ -12,8 +12,8 @@ function App() {
   return (
     <div className="App">
       <header>
-        <nav className='app-nav'>
-          <Link to='/'>Home</Link>
+        <nav className='sidebar'>
+          <Link to='/' class="active">Home</Link>
           <Link to='/about'>About</Link>
           <Link to='/contact'>Contact</Link>
         </nav>
