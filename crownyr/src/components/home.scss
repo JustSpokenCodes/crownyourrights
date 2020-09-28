@@ -46,7 +46,7 @@ p {
     color:plum;
 }
 
-@media screen and (max-width:1500px) {
+@media (max-width:1400px) {
     .sidebar {
         width:100%;
         height: auto;
@@ -55,10 +55,16 @@ p {
     .sidebar a {float:left;}
     div.content {margin-left:0;}
 }
-@media screen and (max-width:800px) {
+@media (max-width:800px) {
     .sidebar a {
         text-align: center;
         float: none;
+    }
+}
+@media (max-width:700) {
+    .content-row {
+        display: flex;
+        flex-direction: column;
     }
 }
 
