@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <header>
         <nav className='sidebar'>
-          <Link to='/' class="active">Home</Link>
+          <Link to='/'>Home</Link>
           <Link to='/about'>About</Link>
           <Link to='/contact'>Contact</Link>
         </nav>
