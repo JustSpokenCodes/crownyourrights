@@ -10,6 +10,7 @@ const Home = () => {
                 <img className="cyr" src="./img/cyr.jpg" alt="crown your rights" />
                     <p> Crown Your Rights is about being accountable for the <i>Crown</i> you wear and making sure it Never falls.
                     </p>
+                    
                 </section>
             </header>
             <section className="content-row">
