@@ -1,31 +1,74 @@
 h1 {
-    font-family: cursive;
+    font-family: "Helvetica";
     font-size: 50px;
-    color: silver
+    color:#eeeeee;
 }
 
 h2, h3, h4 {
-    font-family: fantasy;
-    margin-bottom: 0;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
     padding: 0 10px;
-    font-size: 25px;
-    color: plum;
+    color: #eeeeee
 }
 
 p {
-    font-size: 16px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding:10px;
+    font-size: 21px;
+    padding:10px 50px;
     line-height: 1.2;
-    color: rgb(190, 112, 216);
+    color: rgb(55, 22, 67);
 }
 .about {
     width: 100%;
 }
+.sidebar {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    background-color:blanchedalmond;
+    overflow: auto;
+}
+
+.sidebar a {
+    display: block;
+    color:rgb(172, 81, 172);
+    padding: 16px;
+    text-decoration:none;
+}
+
+.sidebar a.active {
+    background-color: blanchedalmond;
+    color: rgb(231, 233, 120);
+}
+
+.sidebar a:hover:not(.active) {
+    background-color:rgb(86, 27, 121);
+    color:plum;
+}
+
+@media (max-width:2100px) {
+    .sidebar {
+        width:100%;
+        height: auto;
+        position: relative;
+    }
+    .sidebar a {float:left;}
+    div.content {margin-left:0;}
+}
+@media (max-width:800px) {
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
+}
+@media (max-width:700) {
+    .content-row {
+        display: flex;
+        flex-direction: column;
+    }
+}
 
 img {
     border-radius: 10px;
-    width: 20rem;
+    width: 30%;
 }
 
 .cyr {
@@ -34,21 +77,20 @@ img {
 
 .content-row {
     display: flex;
+    flex-direction: column;
     padding: 50px;
+    border-top: 1px solid black;
+    padding-top: 25px;
 }
 
 .content-row div {
-    margin: 20px;
-}
-
-.container {
-    margin: 0 auto;
     width: 100%;
 }
 
-@media (max-width: 375px) {
-    .container {
-        width: 100%;
-        
-    }
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    font-size: 1.6rem;
+    width: 80%;
 }

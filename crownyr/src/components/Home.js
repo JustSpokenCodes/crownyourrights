@@ -4,12 +4,13 @@ import './home.scss';
 const Home = () => {
     return (
         <div className="container">
-            <h1>Crown Your Rights</h1>
             <header>
+            <h1>Crown Your Rights</h1> 
                 <section className="about">
                 <img className="cyr" src="./img/cyr.jpg" alt="crown your rights" />
                     <p> Crown Your Rights is about being accountable for the <i>Crown</i> you wear and making sure it Never falls.
                     </p>
+                    
                 </section>
             </header>
             <section className="content-row">
@@ -64,10 +65,10 @@ const Home = () => {
             <a 
                 className="contact-link"
                 href="https://crownyourrights.com/contact"
-                target="_blank"
+                target="contact.js"
                 rel="noopener noreferrer"
             >
-                Lets Link 
+                Contact Me
             </a>
                     <h1><b>C</b><i>rown</i> <b>Y</b><i>our</i> <b>R</b><i>ights</i></h1>
         </div>

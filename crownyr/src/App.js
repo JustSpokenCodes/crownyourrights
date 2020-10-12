@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, Route, Switch } from "react-router-dom";
 
+
 //components
 import Home from "./components/Home";
 import About from "./components/About";
@@ -12,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <nav className='app-nav'>
+        <nav className='sidebar'>
           <Link to='/'>Home</Link>
           <Link to='/about'>About</Link>
           <Link to='/contact'>Contact</Link>
@@ -29,6 +30,8 @@ function App() {
             <b>C</b><i>rown</i> <b>Y</b><i>our</i> <b>R</b><i>ights</i> goal is to give support and guidance to youth on being independent through mentorship.
           </p>
           <p className="copyright">&copy; BeNice 2020</p>
+          <a href="https://www.facebook.com/bria.hatcher" class="fa fa-facebook"></a>
+          <a href="https://twitter.com/bbybria" class="fa fa-twitter"></a>
         </div>
       </footer>
     </div>
