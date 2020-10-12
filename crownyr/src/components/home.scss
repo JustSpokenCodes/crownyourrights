@@ -1,20 +1,19 @@
 h1 {
-    font-family: cursive;
+    font-family: "Helvetica";
     font-size: 50px;
-    color: rgb(112, 52, 209)
+    color:#eeeeee;
 }
 
 h2, h3, h4 {
     font-family: 'Courier New', Courier, monospace;
-    margin-bottom: 0;
+    text-decoration: underline;
     padding: 0 10px;
-    font-size: 35px;
-    color: rgb(133, 52, 153);
+    color: #eeeeee
 }
 
 p {
     font-size: 21px;
-    padding:10px;
+    padding:10px 50px;
     line-height: 1.2;
     color: rgb(55, 22, 67);
 }
@@ -22,10 +21,9 @@ p {
     width: 100%;
 }
 .sidebar {
-    width:200px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
     background-color:blanchedalmond;
-    position: fixed;
-    height:100%;
     overflow: auto;
 }
 
@@ -46,7 +44,7 @@ p {
     color:plum;
 }
 
-@media (max-width:1400px) {
+@media (max-width:2100px) {
     .sidebar {
         width:100%;
         height: auto;
@@ -70,7 +68,7 @@ p {
 
 img {
     border-radius: 10px;
-    width: 20rem;
+    width: 30%;
 }
 
 .cyr {
@@ -82,11 +80,11 @@ img {
     flex-direction: column;
     padding: 50px;
     border-top: 1px solid black;
-    padding-top: 20px;
+    padding-top: 25px;
 }
 
 .content-row div {
-    margin: 20px;
+    width: 100%;
 }
 
 .container {

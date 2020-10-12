@@ -4,8 +4,8 @@ import './home.scss';
 const Home = () => {
     return (
         <div className="container">
-            <h1>Crown Your Rights</h1> 
             <header>
+            <h1>Crown Your Rights</h1> 
                 <section className="about">
                 <img className="cyr" src="./img/cyr.jpg" alt="crown your rights" />
                     <p> Crown Your Rights is about being accountable for the <i>Crown</i> you wear and making sure it Never falls.
@@ -65,7 +65,7 @@ const Home = () => {
             <a 
                 className="contact-link"
                 href="https://crownyourrights.com/contact"
-                target="_blank"
+                target="contact.js"
                 rel="noopener noreferrer"
             >
                 Contact Me
